@@ -13,6 +13,10 @@ def divide(a, b):
     else:
         return "Error: Division by zero"
     
+def modulo(x,y):
+    """Calculate x mod y"""
+    return x % y
+    
 def calucator():
     print("Welcome to simple Calculator!")
     while True:
